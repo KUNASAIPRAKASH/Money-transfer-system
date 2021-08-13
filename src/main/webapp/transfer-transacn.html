@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transfer Money</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	
+	
+	<style>
+body {
+  background-image: url('E:\mts.jpg');
+}
+</style>
+	
+	
+</head>
+<body style="background-color:#9FE658" class="container">
+
+        <hr/>
+        <div>
+          <h2><center>Transfer Money</center></h2>
+        </div>
+        <hr/>
+<br>
+
+
+
+ <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <form action="recent-transaction" method="POST">
+            <div class="card">
+                <div class="card-header">Start Transaction</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>From Account:</label>
+                            <input name="from_ac" placeholder="ac_num" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>To Account:</label>
+                            <input name="to_ac" placeholder="ac_num" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Amount:</label>
+                            <input name="amount" placeholder="Amount" class="form-control" />
+                        </div>
+                    <div class="card-footer">
+                        <button class="btn btn-dark">Transfer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
